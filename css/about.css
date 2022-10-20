@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(31, 28, 28);
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  padding-left: 0%;
+  padding-top: 10px;
+  padding-right: 10rem;
+  background: url("../assets/cropped-cropped-download-1.png") left no-repeat;
+  background-size: contain;
+  height: inherit;
+}
+
+.linkwrapper a {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.abt {
+  font-size: larger;
+  font-weight: 500;
+  color: black;
+  
+}
+
+.p {
+  padding: 10px;
+  text-align: center;
+  color:white;
+}
+p {
+  text-align: center;
+}
+.p1 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.abt1 {
+  padding-left: 10px;
+  text-align: center;
+  background-color:#603a70;
+  padding: 4.5rem 0;
+  color:white;
+}
+
+.linkwrapper a:hover{
+  background-color:#603a70 ;
+}
+
+.ab{
+  margin-top:10px;
+  background: url("../assets/abt.jpg");
+}
